@@ -12,16 +12,28 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.128.0",
+    "@aws-cdk/aws-apigatewayv2": "1.128.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "1.128.0",
+    "@aws-cdk/aws-dynamodb": "1.128.0",
+    "@aws-cdk/aws-iam": "1.128.0",
+    "@aws-cdk/aws-lambda-event-sources": "1.128.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.128.0",
+    "@aws-cdk/aws-sns": "1.128.0",
+    "@aws-cdk/aws-sqs": "1.128.0",
+    "@aws-cdk/core": "1.128.0",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
+    "aws-cdk": "1.128.0",
+    "esbuild": "^0.14.5",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "1.128.0",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.128.0",
+    "@types/aws-lambda": "^8.10.88",
+    "aws-sdk": "^2.1046.0",
+    "moment": "^2.29.1",
     "source-map-support": "^0.5.16"
   }
 }
